@@ -1,0 +1,20 @@
+[
+    {
+        "id": "0",
+        "title": "batch1",
+        "createdAt": "25-06-23",
+        "qunatity": 1000,
+        "duration": 45,
+        "endDate": "24-10-2024",
+        "progress": "20%"
+    },
+    {
+        "id": "1",
+        "title": "batch2",
+        "createdAt": "25-06-23",
+        "qunatity": 1000,
+        "duration": 45,
+        "endDate": "24-10-2024",
+        "progress": "20%"
+    }
+]
