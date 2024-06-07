@@ -8,6 +8,7 @@ import TabNavigator from './navigation/TabNavigation'
 import { useDispatch, useSelector } from 'react-redux'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { login, logout } from './redux/slice/authSlice'
+import DailyTask from './screens/DailyTask'
 const Stack = createNativeStackNavigator()
 export default function RootStack() {
   const isUserLogin = useSelector((state: any) => state.auth.status);
@@ -36,6 +37,7 @@ export default function RootStack() {
           :
           <Stack.Screen name='notauth' component={AuthStack} />
          }
+         <Stack.Screen name="dailyTask"  component={DailyTask}  options={{headerShown:true,title:"Batch Daily Tasks"}} />
       </Stack.Navigator>
     </NavigationContainer>
 

@@ -30,7 +30,7 @@ export default function TabNavigator() {
                 paddingBottom: 6,
                 color: "black"
             }
-
+        
 
         }}
 
